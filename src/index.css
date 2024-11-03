@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Add these colors to your Tailwind config or override here */
+.text-brown-700 { color: #5B3A29; }
+.bg-brown-500 { background-color: #8C6747; }
+.bg-brown-600 { background-color: #6E4B3E; }
+.bg-brown-700 { background-color: #5B3A29; }
+.text-beige-100 { color: #F5F5DC; }
+.bg-beige-100 { background-color: #F5F5DC; }
+.bg-beige-200 { background-color: #EDE4D3; }
+.border-brown-300 { border-color: #D2B48C; }
+
+
+
